@@ -1,0 +1,186 @@
+:root {
+    --cor-principal: #12546f;
+    --cor-bkgd:  #3485a5;
+    --cor-fonte: #ffff;
+}
+
+
+
+body, html {
+    overflow-x: hidden;
+}
+
+.principal {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/**navbar**/
+
+.d-flex img {
+    height: 30px;
+    width: 30px;
+}
+
+.logo {
+    height: 80px;
+    width: 120px;
+    margin-left: -35px;
+    padding-right: 20px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-link {
+    color:black;
+}
+
+#navbarSupportedContent {
+    color: black;
+}
+
+/**fim navbar**/
+
+/**cabelhaço**/
+
+.container {
+    height: 55%;
+    width: 50%;
+    left: 0;
+    margin-right: 6%;
+    float: left;
+    position: relative;
+    padding-top: 3%;
+}
+
+/**fim cabelhaco**/
+
+/**anuncios**/
+
+.anun1 {
+    height: 100%;
+    width: 19%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 2%;
+}
+
+.anun1 card {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+}
+
+.anun2 {
+    height: 100%;
+    width: 18%;
+    left: 0;
+    margin-left: -50;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 2%;
+}
+
+.anun2 card {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+}
+
+/**fim anuncios**/
+
+.slogan {
+    height: 50%;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: -18%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.slogan img {
+    height: 57%;
+    width: 96%;
+    
+}
+
+/**fim slogan**/
+
+/**estante**/
+
+.romance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.romance img {
+        height: 230px;
+        width: 200px;
+        padding-left: 8px;
+        border-radius: 5px;
+}
+
+.fantasia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fantasia img {
+    height: 230px;
+    width: 200px;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+
+.ficcao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ficcao img {
+    height: 230px;
+    width: 200px;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+
+.ms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ms img {
+    height: 230px;
+    width: 200px;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 920px) {
+    .anun1 {
+      display:none;
+    }
+    .anun2  {
+        display:none;
+      }
+}
+/**fim estante**/
+
+/**footer**/
